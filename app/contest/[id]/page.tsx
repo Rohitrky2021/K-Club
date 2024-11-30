@@ -10,7 +10,7 @@ import { Loader2 } from 'lucide-react'
 const contestCache = new Map<string, Contest>();
 
 // Dummy data  //
-export const dummyContest: Contest = {
+const dummyContest: Contest = {
   id: 12345,
   name: 'Dummy Contest',
   type: 'ICPC',
